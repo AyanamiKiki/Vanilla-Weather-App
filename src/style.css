@@ -1,0 +1,17 @@
+body {
+  background-size: 100%;
+}
+.frame {
+  margin: 20px 25% 20px;
+  background-color: #fff;
+  border: solid black;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 0px 10px;
+}
+.city-input {
+  max-width: 250px;
+}

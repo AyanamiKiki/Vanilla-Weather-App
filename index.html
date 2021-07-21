@@ -14,8 +14,53 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <h1>Hello world</h1>
+  <body background="media/pexels-eberhard-grossgasteiger-691668.jpeg">
+    <div class="frame">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="current-temp">temperature</h1>
+            <h1 class="current-city">city</h1>
+                <form id="search-form">
+                    <input type="search" placeholder="Change city" autocomplete="off" id="city-input" class="change-city" />
+                    <input type="submit" value="Search" id="search" class="search" />
+                  <button type="button" class="current-button">Current</button>
+          </div>
+          <div class="col-6">
+            <h1>
+              <span class="current-day">Today's Day</span>
+              <span class="current-time">Time</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            Column
+          </div>
+          <div class="col-3">
+            Column
+          </div>
+          <div class="col-3">
+            Column
+          </div>
+          <div class="col-3">
+            Column
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="footer">
+      <a
+        href="https://github.com/AyanamiKiki/Vanilla-Weather-App"
+        target="blank"
+      >
+        open source code
+      </a>
+      by Ayanami Kiki
+    </p>
     <script src="src/index.js"></script>
   </body>
 </html>
