@@ -13,5 +13,5 @@ body {
   padding: 0px 10px;
 }
 .city-input {
-  max-width: 250px;
+  max-width: 100%;
 }
