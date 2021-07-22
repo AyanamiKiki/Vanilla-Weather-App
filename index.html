@@ -13,55 +13,58 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/5175c14133.js" crossorigin="anonymous"></script>
   </head>
   <body background="media/pexels-eberhard-grossgasteiger-691668.jpeg">
     <div class="frame">
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <h1 class="current-temp">temperature</h1>
-            <h1 class="current-city">city</h1>
-                <form id="search-form">
-                    <input type="search" placeholder="Change city" autocomplete="off" id="city-input" class="change-city" />
-                    <input type="submit" value="Search" id="search" class="search" />
-                  <button type="button" class="current-button">Current</button>
+            <h1 class="current-city"><i class="fas fa-sun"></i> city</h1>
+            <h1 class="current-temp">temperature<span class="units"> °C</span> </h1>
           </div>
           <div class="col-6">
             <h1>
               <span class="current-day">Today's Day</span>
               <span class="current-time">Time</span>
             </h1>
+            <div class="search-section">
+            <form id="search-form">
+              <input type="search" placeholder="Change city" autocomplete="off" id="city-input" class="city-input" />
+              <input type="submit" value="Search" id="search" class="search-button" />
+              <button type="button" class="current-button">Current</button>
+              </div>
           </div>
         </div>
       </div>
-      <hr>
+      <hr />
       <div class="container">
         <div class="row">
-          <div class="col-3">
-         
+          <div class="col-4">
             <div class="card-body">
-              <h5 class="card-title">Weekday</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
-          </div>
-          </div>
-          <div class="col-3">
-            
-          <div class="card-body">
-            <h5 class="card-title">Weekday</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div> 
-          </div>
-          <div class="col-3">
-           <div class="card-body">
-              <h5 class="card-title">Weekday</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Precipitation</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
-          <div class="col-3">
-                <div class="card-body">
-              <h5 class="card-title">Weekday</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="col-4">
+            <div class="card-body">
+              <h5 class="card-title">Humidity</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card-body">
+              <h5 class="card-title">Wind</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
