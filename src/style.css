@@ -3,7 +3,14 @@ body {
 }
 .current-city {
   text-align: left;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 30px;
+  text-transform: capitalize;
+}
+.current-description {
+  font-size: 30px;
+  text-align: left;
+  padding: 0px 0px 0px 25px;
+  text-transform: capitalize;
 }
 .frame {
   margin: 10% 25% 25px;
