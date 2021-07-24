@@ -31,6 +31,7 @@ function displayTemperature(response) {
   let windElement = document.querySelector("#wind");
   let pressureElement = document.querySelector("#pressure");
   let dateElement = document.querySelector("#current-date");
+  let iconElement = document.querySelector("#weather-icon");
 
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = response.data.wind.speed;
@@ -39,6 +40,10 @@ function displayTemperature(response) {
   cityElement.innerHTML = response.data.name;
   descriptionElement.innerHTML = response.data.weather[0].description;
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  iconElement.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";

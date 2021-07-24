@@ -3,17 +3,19 @@ body {
 }
 .current-city {
   text-align: left;
-  padding: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 0px;
+  margin: 0 auto;
   text-transform: capitalize;
 }
 .current-description {
   font-size: 30px;
   text-align: left;
-  padding: 0px 0px 0px 25px;
+  padding: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 30px;
   text-transform: capitalize;
 }
 .frame {
-  margin: 10% 25% 25px;
+  margin: 12% 25% 25px;
   background-color: #fff;
   border: solid black;
   text-align: center;
@@ -27,9 +29,9 @@ body {
 .city-input {
   max-width: 100%;
 }
-.fa-sun {
-  color: #ffce01;
-}
 .search-section {
   padding: 10px 0px 0px;
+}
+.last-updated {
+  margin: 0 auto;
 }
