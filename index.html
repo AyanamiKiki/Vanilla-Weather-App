@@ -14,18 +14,22 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/5175c14133.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet">
   </head>
   <body background="media/pexels-eberhard-grossgasteiger-691668.jpeg">
     <div class="frame">
       <div class="container">
         <div class="row">
-          <div class="col-7">
+          <div class="col-6">
             <h1 class="current-city">
             <img src="https://openweathermap.org/img/wn/10d@2x.png" 
                   alt="weather-icon"
                   class="weather-icon"
                   id="weather-icon">
-            <span id="current-city">Tokyo</span> 
+            <span id="current-city">Tokyo</span>,
             <span 
             class="current-temp" 
             id="current-temp">20 </span>
@@ -35,7 +39,7 @@
             </h1> <h1 class="current-description">
              <span id="current-description">possible rain</span> </h1>
           </div>
-          <div class="col-5">
+          <div class="col-6">
             <p class="last-updated">Last updated:</p>
             <h1>
               <span class="current-date" id="current-date"></span>
@@ -94,7 +98,8 @@
       >
         open source code
       </a>
-      by Ayanami Kiki
+      by Ayanami Kiki<br>
+      Photo by: <a href="https://www.pexels.com/@eberhardgross" target="blank">Eberhard Grossgasteiger</a>
     </p>
     <script src="src/index.js"></script>
   </body>

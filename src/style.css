@@ -1,6 +1,10 @@
 body {
   background-size: 100%;
 }
+form {
+  border-radius: 4px;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -18,12 +22,25 @@ a:link {
   margin: 0px 0px 0px 30px;
   text-transform: capitalize;
 }
+.current-date {
+  font-size: 30px;
+  font-weight: 600;
+}
+.current-temp {
+  font-size: 35px;
+}
+.card-title {
+  font-weight: 600;
+}
 .frame {
   margin: 12% 25% 25px;
   background-color: #fff;
   border: solid black;
   text-align: center;
   padding: 20px 0px 0px 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .footer {
   position: fixed;
@@ -31,7 +48,17 @@ a:link {
   padding: 0px 10px;
 }
 .city-input {
-  max-width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+.search-button {
+  background-color: #b4b5b4;
+  border-color: #323233;
+  border-radius: 4px;
+}
+.search-button:hover {
+  background-color: #545554;
+  color: #fff;
 }
 .search-section {
   padding: 10px 0px 0px;
@@ -39,6 +66,7 @@ a:link {
 .last-updated {
   margin: 0 auto;
 }
+
 #current-city {
   font-weight: bold;
   font-size: 40px;
