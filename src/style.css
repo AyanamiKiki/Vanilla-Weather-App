@@ -1,11 +1,15 @@
 body {
   background-size: 100%;
 }
+a:link {
+  text-decoration: none;
+}
 .current-city {
   text-align: left;
   padding: 0px 0px 0px 0px;
   margin: 0 auto;
   text-transform: capitalize;
+  font-size: 30px;
 }
 .current-description {
   font-size: 30px;
@@ -19,7 +23,7 @@ body {
   background-color: #fff;
   border: solid black;
   text-align: center;
-  padding: 20px 0px 0px;
+  padding: 20px 0px 0px 20px;
 }
 .footer {
   position: fixed;
@@ -34,4 +38,8 @@ body {
 }
 .last-updated {
   margin: 0 auto;
+}
+#current-city {
+  font-weight: bold;
+  font-size: 40px;
 }
