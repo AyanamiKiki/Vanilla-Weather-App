@@ -61,9 +61,9 @@ function displayForecast(response) {
       }@2x.png" alt="weather-icon">
         <span class="weekday-temp-max" id="weekday-temp-max">${Math.round(
           forecastDay.temp.max
-        )}°</span> | <span class="weekday-temp-min" id="weekday-temp-min">${Math.round(
+        )}°C</span> | <span class="weekday-temp-min" id="weekday-temp-min">${Math.round(
           forecastDay.temp.min
-        )}°</span>
+        )}°C</span>
           </div>
     `;
     }
